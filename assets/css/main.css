@@ -156,6 +156,15 @@ body {
   line-height: 35px;
 }
 
+.section-content__content1 {
+  font-size: 1.2rem;
+  color: rgb(53, 53, 53);
+  width: 100%;
+  text-align: left;
+  line-height: 35px;
+}
+
+
 .marginBottom {
   margin-bottom: 60px;
 }
@@ -189,4 +198,63 @@ a:hover {
 
 .main {
   color: rgb(199, 11, 136);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+@media (max-width:500px) {
+  .title {
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.5rem;
+  }
+
+  .section-content1 {
+    padding: 0 40px;
+  }
+
+  .section-content__content1 {
+    text-align: justify;
+  }
+
+  .section-content__content {
+    text-align: justify;
+  }
+  
+  .content__img {
+    height: 53px;
+  }
+
+  .content__img1 {
+    height: 147px;
+  }
+
+  .section-content {
+    padding: 0 40px;
+  }
+
+  a {
+    display: block;
+    text-align: center;
+  }
+
+  .title1 {
+    line-height: 43px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0 20px;
+  }
 }
