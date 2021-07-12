@@ -11,6 +11,17 @@ body {
     src: url(../fonts/Quicksand-Regular.ttf);
 }
 
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
 .bg-holder {
   width: 100%;
   height: 100%;
@@ -94,6 +105,7 @@ body {
     letter-spacing: 4px;
     font-size: 2.5rem;
     text-transform: uppercase;
+    animation: appear ease-out 1s;
 }
 
 .title1 {
